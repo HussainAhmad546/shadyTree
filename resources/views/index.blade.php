@@ -103,20 +103,20 @@
 					<div class="menu-img"><img src="images/our-shady-burger.jpg" alt="menu" class="menu-image"></div>
 					<p class="menu-title text-uppercase" style="color:black;font-weight:700;">OUR SHADY BURGER</p>
 					<p class="menu-des">a fresh hand made charbroiled Alberta beef patty, Shady sauce, lettuce, tomato, onion and pickle </p>
-					<span class="menu-price">$17</span>
+					<span class="menu-price">$16</span>
 				</div>
 				<div class="col-xl-3 col-lg-3 col-md-4 text-center pt-20">
 					<div class="menu-img"><img src="images/texas-roundhouse-burger.jpg" alt="menu" class="menu-image"></div>
 					<p class="menu-title text-uppercase" style="color:black;font-weight:700;">TEXAS ROADHOUSE BURGER</p>
 					<p class="menu-des">grilled bison, swiss cheese, drizzled with whiskey bbq sauce, lettuce,tomato, onion, pickles, topped with a crispy onion ring. </p>
-					<span class="menu-price">$18</span>
+					<span class="menu-price">$17</span>
 				</div>
 				<div class="col-xl-3 col-lg-3 col-md-4 text-center pt-20">
 					<div class="menu-img"><img src="images/wild-bc-salmon-burger.jpg" alt="menu" class="menu-image"></div>
 					<p class="menu-title text-uppercase" style="color:black;font-weight:700;">WILD BC SALMON BURGER</p>
 					<p class="menu-des">miso glazed sockeye salmon, lettuce, tomato, pickled onion, pea shoots & yuzu mayo</p>
 					<p>*Item are not on special tuesday nights.*</p>
-					<span class="menu-price">$20 1/2</span>
+					<span class="menu-price">$18</span>
 				</div>
 				<div class="col-xl-3 col-lg-3 col-md-4 text-center pt-20">
 					<div class="menu-img"><img src="images/full-of-veggies-burger.jpg" alt="menu" class="menu-image"></div>
@@ -127,8 +127,8 @@
 				<div class="col-xl-3 col-lg-3 col-md-4 text-center pt-20">
 					<div class="menu-img"><img src="images/chicken-and-brie.jpg" alt="menu" class="menu-image"></div>
 					<p class="menu-title text-uppercase" style="color:black;font-weight:700;">CHICKEN & BRIE</p>
-					<p class="menu-des">free run locally sourced grilled chicken breast, brie,  mixed greens veggie & cranberry mayo on a brioche bun</p>
-					<span class="menu-price">$18</span>
+					<p class="menu-des">free run locally sourced grilled chicken breast, brie,  mixed greens veggie & cranberry mayo on a baguette</p>
+					<span class="menu-price">$17</span>
 				</div>
 				<div class="col-xl-3 col-lg-3 col-md-4 text-center pt-20">
 					<div class="menu-img"><img src="images/roas-1.jpg" alt="menu" class="menu-image"></div>
@@ -141,13 +141,13 @@
 					<div class="menu-img"><img src="images/cajun-burger.jpg" alt="menu" class="menu-image"></div>
 					<p class="menu-title text-uppercase" style="color:black;font-weight:700;">CAJUN BURGER</p>
 					<p class="menu-des">seasoned cajun chicken breast, served with lettuce, tomato, onion, pickles and chipotle sauce</p>
-					<span class="menu-price">$18</span>
+					<span class="menu-price">$17</span>
 				</div>
 				<div class="col-xl-3 col-lg-3 col-md-4 text-center pt-20">
 					<div class="menu-img"><img src="images/spic-1.jpg" alt="menu" class="menu-image"></div>
 					<p class="menu-title text-uppercase" style="color:black;font-weight:700;">SPICY CRISPY CHICKEN BURGER</p>
 					<p class="menu-des">Served on a brioche bun,topped with creamy coleslaw,jalapeno pepper jack cheeses and honey mustrad </p>
-					<span class="menu-price">$18</span>
+					<span class="menu-price">$17</span>
 				</div>
 			</div>
 			<div role="tabpanel" class="row pt-70 tab-pane fade" id="tab-3">
@@ -169,13 +169,13 @@
 					<div class="menu-img"><img src="images/garden-salad.jpg" alt="menu" class="menu-image"></div>
 					<p class="menu-title text-uppercase" style="color:black;font-weight:700;">GARDEN SALAD</p>
 					<p class="menu-des">mixed greens, shredded carrots & beets, grape tomatoes, cucumbers and tossed in basil vinalgrette</p>
-					<span class="menu-price">$17</span>
+					<span class="menu-price">$15</span>
 				</div>
 				<div class="col-xl-3 col-lg-3 col-md-4 text-center pt-20">
 					<div class="menu-img"><img src="images/cris-1.webp" alt="menu" class="menu-image"></div>
 					<p class="menu-title text-uppercase" style="color:black;font-weight:700;">CRISPY CHICKEN TACO SALAD</p>
 					<p class="menu-des">crispy chicken, served in a taco bowl, with mixed greens, cilastro, black beans, diced tomato, red onion and shredded cheese. Served with a side of sour cream and salsa</p>
-					<span class="menu-price">$21 1/4</span>
+					<span class="menu-price">$17</span>
 				</div>
 				<div class="col-xl-3 col-lg-3 col-md-4 text-center pt-20">
 					<div class="menu-img"><img src="images/shady-glory-bowl.jpg" alt="menu" class="menu-image"></div>
@@ -193,19 +193,19 @@
 					<div class="menu-img"><img src="images/fish-and-chips.jpg" alt="menu" class="menu-image"></div>
 					<p class="menu-title text-uppercase" style="color:black;font-weight:700;">FISH & CHIPS</p>
 					<p class="menu-des">two pieces of lightly beer battered west coast cod fillets, served with  fries</p>
-					<span class="menu-price">$18</span>
+					<span class="menu-price">$16</span>
 				</div>
 				<div class="col-xl-3 col-lg-3 col-md-4 text-center pt-20">
 					<div class="menu-img"><img src="images/baked-lasagna.jpg" alt="menu" class="menu-image"></div>
 					<p class="menu-title text-uppercase" style="color:black;font-weight:700;">BAKED LASAGNA</p>
 					<p class="menu-des">made from scratch, served with garden salad and garlic bread</p>
-					<span class="menu-price">$18</span>
+					<span class="menu-price">$15</span>
 				</div>
 				<div class="col-xl-3 col-lg-3 col-md-4 text-center pt-20">
 					<div class="menu-img"><img src="images/slow-1.webp" alt="menu" class="menu-image"></div>
 					<p class="menu-title text-uppercase" style="color:black;font-weight:700;">SLOW ROAST BEEF DIP</p>
-					<p class="menu-des">thinly sliced oven-roasted beef, with swiss cheese and garlic mayo,served with our own aujus for dipping served with our aujas for dipping. Served with fries or garden salad</p>
-					<span class="menu-price">$18</span>
+					<p class="menu-des">thinly sliced oven roast beef, with swiss cheese, crispy onion and horseradish mayo.Served on a pretzel bun with our own au jas for dipping</p>
+					<span class="menu-price">$17</span>
 				</div>
 				<div class="col-xl-3 col-lg-3 col-md-4 text-center pt-20">
 					<div class="menu-img"><img src="images/tacos-1.webp" alt="menu" class="menu-image"></div>
@@ -214,52 +214,58 @@
 					<span class="menu-price">$15</span>
 				</div>
 				<div class="col-xl-3 col-lg-3 col-md-4 text-center pt-20">
+					<div class="menu-img"><img src="images/teriyaki_chicken_wrap.webp" alt="menu" class="menu-image"></div>
+					<p class="menu-title text-uppercase" style="color:black;font-weight:700;">TERIYAKI CHICKEN WRAP</p>
+					<p class="menu-des">grilled chicken rossed in teriyaki sauce, salad greens, slaws, shredded carrots, cucumber and crispy noodles. Served with fires or garden salad</p>
+					<span class="menu-price">$15</span>
+				</div>
+				<div class="col-xl-3 col-lg-3 col-md-4 text-center pt-20">
 					<div class="menu-img"><img src="images/st-1.webp" alt="menu" class="menu-image"></div>
 					<p class="menu-title text-uppercase" style="color:black;font-weight:700;">Steak Sandwich</p>
 					<p class="menu-des">a opened-faced 8oz steak on a baguette, topped with sauteed mushrooms. Served with fries or garden salad.</p>
-					<span class="menu-price">$20</span>
+					<span class="menu-price">$18</span>
 				</div>
-				<div class="col-xl-3 col-lg-3 col-md-4 text-center pt-20">
+				<!-- <div class="col-xl-3 col-lg-3 col-md-4 text-center pt-20">
 					<div class="menu-img"><img src="images/pop-1.webp" alt="menu" class="menu-image"></div>
 					<p class="menu-title text-uppercase" style="color:black;font-weight:700;">Popcorn Shrimp Basket</p>
 					<p class="menu-des">crispy fried battered shrimp served with fries and our house-made cocktail sauce.</p>
 					<span class="menu-price">$18</span>
-				</div>
-				<div class="col-xl-3 col-lg-3 col-md-4 text-center pt-20">
+				</div> -->
+				<!-- <div class="col-xl-3 col-lg-3 col-md-4 text-center pt-20">
 					<div class="menu-img"><img src="images/ch-1.webp" alt="menu" class="menu-image"></div>
 					<p class="menu-title text-uppercase" style="color:black;font-weight:700;">Chicken Strips</p>
 					<p class="menu-des">breaded chicken tenders on a bed of fries with choice of plum, honey mustard of ranch.</p>
 					<span class="menu-price">$18</span>
-				</div>
+				</div> -->
 				<div class="col-xl-3 col-lg-3 col-md-4 text-center pt-20">
 					<div class="menu-img"><img src="images/sire-1.webp" alt="menu" class="menu-image"></div>
 					<p class="menu-title text-uppercase" style="color:black;font-weight:700;">SIRACHA PRAWN BOWL</p>
 					<p class="menu-des">prawns sauteed in peppers, cream, butter and siracha. Topped with a grilled lime roasted cashews and served with basmati rice and garlic toast</p>
-					<span class="menu-price">$18</span>
+					<span class="menu-price">$16</span>
 				</div>
 				<div class="col-xl-3 col-lg-3 col-md-4 text-center pt-20">
 					<div class="menu-img"><img src="images/gr-2.webp" alt="menu" class="menu-image"></div>
 					<p class="menu-title text-uppercase" style="color:black;font-weight:700;">GRILLED CHICKEN QUESADILLA</p>
 					<p class="menu-des">a crunchy tortilla-filled with grilled chicken, shredded cheese, black beans, green onions and tomatoes, with a side of sour cream and salsa</p>
-					<span class="menu-price">$17</span>
+					<span class="menu-price">$15</span>
 				</div>
-				<div class="col-xl-3 col-lg-3 col-md-4 text-center pt-20">
+				<!-- <div class="col-xl-3 col-lg-3 col-md-4 text-center pt-20">
 					<div class="menu-img"><img src="images/reu-2.webp" alt="menu" class="menu-image"></div>
 					<p class="menu-title text-uppercase" style="color:black;font-weight:700;">REUBEN SANDWICH</p>
 					<p class="menu-des">corned beef, sauerkaraut, swiss cheese and dijon mustard on marble rye bread</p>
 					<span class="menu-price">$18</span>
-				</div>
+				</div> -->
 				<div class="col-xl-3 col-lg-3 col-md-4 text-center pt-20">
 					<div class="menu-img"><img src="images/spaghettini-bolognese.png" alt="menu" class="menu-image"></div>
 					<p class="menu-title text-uppercase" style="color:black;font-weight:700;">SPAGHETTINI BOLOGNESE</p>
 					<p class="menu-des">made fresh in house, bolognese meat sauce and garlic bread. An Italian classic</p>
-					<span class="menu-price">$17</span>
+					<span class="menu-price">$14</span>
 				</div>
 				<div class="col-xl-3 col-lg-3 col-md-4 text-center pt-20">
 					<div class="menu-img"><img src="images/FRESH-1.jpg" alt="menu" class="menu-image"></div>
 					<p class="menu-title text-uppercase" style="color:black;font-weight:700;">WILD PACIFIC COD</p>
 					<p class="menu-des">pan-fried seasoned cod,served with baked yams and seasoned vegetables</p>
-					<span class="menu-price">$20 1/4</span>
+					<span class="menu-price">$17</span>
 				</div>
 			</div>
 			<div role="tabpanel" class="row pt-70 tab-pane fade" id="tab-5">
@@ -270,49 +276,85 @@
 					<div class="menu-img"><img src="images/double-crunch-wings.jpg" alt="menu" class="menu-image"></div>
 					<p class="menu-title text-uppercase" style="color:black;font-weight:700;">DOUBLE CRUNCH WINGS</p>
 					<p class="menu-des">hot, teriyaki, bbq, honey garlic, buffalo, seasoned, lemon pepper, thai chili ... ADD VEGGIES 2</p>
-					<span class="menu-price">$17</span>
+					<span class="menu-price">$15</span>
 				</div>
 				<div class="col-xl-3 col-lg-3 col-md-4 text-center pt-20">
 					<div class="menu-img"><img src="images/mac-1.webp" alt="menu" class="menu-image"></div>
 					<p class="menu-title text-uppercase" style="color:black;font-weight:700;">MAC & CHEESE BITES</p>
 					<p class="menu-des">crispy coated mac & cheese served with house-made Carolina BBQ dip </p>
-					<span class="menu-price">$15</span>
+					<span class="menu-price">$14</span>
 				</div>
 				<div class="col-xl-3 col-lg-3 col-md-4 text-center pt-20">
 					<div class="menu-img"><img src="images/wonton-prawns.jpg" alt="menu" class="menu-image"></div>
 					<p class="menu-title text-uppercase" style="color:black;font-weight:700;">WONTON PRAWNS</p>
 					<p class="menu-des">Breaded with crushed wontons, served with a thai chili sauce</p>
-					<span class="menu-price">$18 3/4</span>
+					<span class="menu-price">$15</span>
 				</div>
 				<div class="col-xl-3 col-lg-3 col-md-4 text-center pt-20">
 					<div class="menu-img"><img src="images/potato-skins.jpg" alt="menu" class="menu-image"></div>
 					<p class="menu-title text-uppercase" style="color:black;font-weight:700;">POTATO SKINS</p>
 					<p class="menu-des">melted cheddar cheese, bacon, green onions with sour cream</p>
-					<span class="menu-price">$16</span>
+					<span class="menu-price">$15</span>
 				</div>
 				<div class="col-xl-3 col-lg-3 col-md-4 text-center pt-20">
 					<div class="menu-img"><img src="images/poutine.jpg" alt="menu" class="menu-image"></div>
 					<p class="menu-title text-uppercase" style="color:black;font-weight:700;">POUTINE VEGETARIAN</p>
 					<p class="menu-des">fries, cheese curds and poutine sauce</p>
+					<span class="menu-price">$14</span>
+				</div>
+				<div class="col-xl-3 col-lg-3 col-md-4 text-center pt-20">
+					<div class="menu-img"><img src="images/lettuce_wrap_missing.webp" alt="menu" class="menu-image"></div>
+					<p class="menu-title text-uppercase" style="color:black;font-weight:700;">LETTUCE WRAP</p>
+					<p class="menu-des">crispy chicken tossed in red Thai Chilli sauce, geen onions and sesame seeds topped with crispy noodles and served with cucumbers, pickled ginger carrots, cilantro, Ice berg lettuce and miso sauce</p>
+					<span class="menu-price">$14</span>
+				</div>
+				<div class="col-xl-3 col-lg-3 col-md-4 text-center pt-20">
+					<div class="menu-img"><img src="images/boneless_breaded_chicken_bites.webp" alt="menu" class="menu-image"></div>
+					<p class="menu-title text-uppercase" style="color:black;font-weight:700;">BONELESS BREADED CHICKEN BITES</p>
+					<p class="menu-des">hot, teriyaki, BBQ sauce, honey garlic, buffalo or thai chilli</p>
+					<span class="menu-price">$15</span>
+				</div>
+				<div class="col-xl-3 col-lg-3 col-md-4 text-center pt-20">
+					<div class="menu-img"><img src="images/chicken_strips.webp" alt="menu" class="menu-image"></div>
+					<p class="menu-title text-uppercase" style="color:black;font-weight:700;">CHICKEN STRIPS</p>
+					<p class="menu-des">breaded chicken tendors on a bed of fries with choice of plum, honey mustard or ranch</p>
+					<span class="menu-price">$15</span>
+				</div>
+				<div class="col-xl-3 col-lg-3 col-md-4 text-center pt-20">
+					<div class="menu-img"><img src="images/popcorn_shrimp_basket.webp" alt="menu" class="menu-image"></div>
+					<p class="menu-title text-uppercase" style="color:black;font-weight:700;">POPCORN SHRIMP BASKET</p>
+					<p class="menu-des">crispy fried battered shrimp served with fries and our house-made cocktail sauce</p>
+					<span class="menu-price">$15</span>
+				</div>
+				<div class="col-xl-3 col-lg-3 col-md-4 text-center pt-20">
+					<div class="menu-img"><img src="images/steamed_mussels.webp" alt="menu" class="menu-image"></div>
+					<p class="menu-title text-uppercase" style="color:black;font-weight:700;">STEAMED MUSSELS</p>
+					<p class="menu-des">in white wine garlic butter sauce, served wit garlic bread</p>
+					<span class="menu-price">$15</span>
+				</div>
+				<div class="col-xl-3 col-lg-3 col-md-4 text-center pt-20">
+					<div class="menu-img"><img src="images/truffle_fries.webp" alt="menu" class="menu-image"></div>
+					<p class="menu-title text-uppercase" style="color:black;font-weight:700;">TRUFFLE FRIES</p>
+					<p class="menu-des">fries tossed in truffles, herbs and parmesan.Served with garlic aoli</p>
 					<span class="menu-price">$15</span>
 				</div>
 				<div class="col-xl-3 col-lg-3 col-md-4 text-center pt-20">
 					<div class="menu-img"><img src="images/deep-fried-pickles.jpg" alt="menu" class="menu-image"></div>
 					<p class="menu-title text-uppercase" style="color:black;font-weight:700;">DEEP FRIED PICKLES</p>
 					<p class="menu-des">crispy seasoned fried pickles, served with our  in house ranch sauce</p>
-					<span class="menu-price">$16</span>
+					<span class="menu-price">$14</span>
 				</div>
 				<div class="col-xl-3 col-lg-3 col-md-4 text-center pt-20">
 					<div class="menu-img"><img src="images/jala-1.webp" alt="menu" class="menu-image"></div>
 					<p class="menu-title text-uppercase" style="color:black;font-weight:700;">Jalapeno Poppers</p>
 					<p class="menu-des">Jalapeno poppers filled with cream cheese and topped with a crispy breading served with ranch dressing.</p>
-					<span class="menu-price">$17</span>
+					<span class="menu-price">$14</span>
 				</div>
 				<div class="col-xl-3 col-lg-3 col-md-4 text-center pt-20">
 					<div class="menu-img"><img src="images/mozz-1.webp" alt="menu" class="menu-image"></div>
 					<p class="menu-title text-uppercase" style="color:black;font-weight:700;">Mozzarella Sticks</p>
 					<p class="menu-des">breaded mozeralla sticks. Crispy on the outside with just the right amount of melty cheese on the inside. Served with out house-made marinara sauce</p>
-					<span class="menu-price">$15</span>
+					<span class="menu-price">$13</span>
 				</div>
 				<div class="col-xl-3 col-lg-3 col-md-4 text-center pt-20">
 					<div class="menu-img"><img src="images/g-4.jpg" alt="menu" class="menu-image"></div>
@@ -322,49 +364,49 @@
 				</div>
 				<div class="col-xl-3 col-lg-3 col-md-4 text-center pt-20">
 					<div class="menu-img"><img src="images/sp-5.jpg" alt="menu" class="menu-image"></div>
-					<p class="menu-title text-uppercase" style="color:black;font-weight:700;">SPINACH ARTICHOKE DIP</p>
+					<p class="menu-title text-uppercase" style="color:black;font-weight:700;">SPINACH DIP</p>
 					<p class="menu-des">a creamy blend of spinach,various cheese and herbs Baked and served with a side of tortilla chips </p>
-					<span class="menu-price">$17</span>
+					<span class="menu-price">$15</span>
 				</div>
-				<div class="col-xl-3 col-lg-3 col-md-4 text-center pt-20">
+				<!-- <div class="col-xl-3 col-lg-3 col-md-4 text-center pt-20">
 					<div class="menu-img"><img src="images/beer_cheese.webp" alt="menu" class="menu-image"></div>
 					<p class="menu-title text-uppercase" style="color:black;font-weight:700;">BEER & CHEESE DIP</p>
 					<p class="menu-des"> creamy beer cheese dip served with a warm pretzel for dipping </p>
 					<span class="menu-price">$14 1/3</span>
-				</div>
+				</div> -->
 				<div class="col-xl-3 col-lg-3 col-md-4 text-center pt-20">
 					<div class="menu-img"><img src="images/dry-1.webp" alt="menu" class="menu-image"></div>
 					<p class="menu-title text-uppercase" style="color:black;font-weight:700;">Dry Ribs</p>
 					<p class="menu-des">Crispy dry ribs with salt and pepper, served with ranch sauce.</p>
-					<span class="menu-price">$16</span>
+					<span class="menu-price">$14</span>
 				</div>
 				<div class="col-xl-3 col-lg-3 col-md-4 text-center pt-20">
 					<div class="menu-img"><img src="images/crispy-calamari.jpg" alt="menu" class="menu-image"></div>
 					<p class="menu-title text-uppercase" style="color:black;font-weight:700;">CRISPY CALAMARI</p>
 					<p class="menu-des">lightly battered squid, jalapenos and tzatziki</p>
-					<span class="menu-price">$17</span>
+					<span class="menu-price">$15</span>
 				</div>
-				<div class="col-xl-3 col-lg-3 col-md-4 text-center pt-20">
+				<!-- <div class="col-xl-3 col-lg-3 col-md-4 text-center pt-20">
 					<div class="menu-img"><img src="images/loded-1.webp" alt="menu" class="menu-image"></div>
 					<p class="menu-title text-uppercase" style="color:black;font-weight:700;">Loaded Veggie Fries</p>
 					<p class="menu-des">crispy fries topped with cheese, sour cream, green onions and diced tomatoes.</p>
 					<span class="menu-price">$15</span>
-				</div>			
+				</div>			 -->
 				<div class="col-xl-3 col-lg-3 col-md-4 text-center pt-20">
 					<div class="menu-img"><img src="images/nachos.png" alt="menu" class="menu-image"></div>
 					<p class="menu-title text-uppercase" style="color:black;font-weight:700;">NACHOS</p>
 					<p class="menu-des">three cheeses, black olives, green onions, tomato, jalapeno peppers</p>
-					<p class="menu-des">ADD CAJUN  CHICKEN OR SEASONED  GROUND BEEF 5</p>
+					<p class="menu-des">ADD CAJUN  CHICKEN OR SEASONED  GROUND BEEF 4</p>
 					<p class="menu-des">ADD GUACAMOLE OR CHEESE SAUCE 2</p>
 					<small>*Nachos are not on Special Wednesday Nights*</small>
-					<span class="menu-price" STYLE="display:block;margin-top:15px;">$20</span>
+					<span class="menu-price" STYLE="display:block;margin-top:15px;">$17</span>
 				</div>
 			</div>
 			<div role="tabpanel" class="row pt-70 tab-pane fade" id="tab-6">
 				<div class="col-xl-3 col-lg-3 col-md-4 text-center pt-20">
 					<div class="menu-img"><img src="images/budweuser.jpg" alt="menu" class="menu-image"></div>
 					<p class="menu-title text-uppercase" style="color:black;font-weight:700;">BUDWEISER <small> - USA</small></p>
-					<p class="menu-des">16oz. - 51/4%</p>
+					<p class="menu-des">16oz. - 5%</p>
 					<span class="menu-price">$7 1/4 </span>
 				</div>
 				<div class="col-xl-3 col-lg-3 col-md-4 text-center pt-20">
@@ -379,6 +421,13 @@
 					<p class="menu-title text-uppercase" style="color:black;font-weight:700;">BACKCOUNTRY WIDOWMAKER IPA</p>
 					<p class="menu-des">SQUAMISH, BC</p>
 					<p class="menu-des">16oz. - 6.7%</p>
+					<span class="menu-price">$7 3/4</span>
+				</div>
+				<div class="col-xl-3 col-lg-3 col-md-4 text-center pt-20">
+					<div class="menu-img"><img src="images/fat_tug_ipa.webp" alt="menu" class="menu-image"></div>
+					<p class="menu-title text-uppercase" style="color:black;font-weight:700;">FAT TUG IPA</p>
+					<p class="menu-des">VICTORIA</p>
+					<p class="menu-des">16oz. - 7%</p>
 					<span class="menu-price">$7 3/4</span>
 				</div>
 				<!-- <div class="col-xl-3 col-lg-3 col-md-4 text-center pt-20">
@@ -411,13 +460,13 @@
 					<p class="menu-title text-uppercase" style="color:black;font-weight:700;">PHILLIPS BLUE BUCK ALE</p>
 					<p class="menu-des">VICTORIA, BC</p>
 					<p class="menu-des">16oz. - 5%</p>
-					<span class="menu-price">$7 1/4</span>
+					<span class="menu-price">$7 1/2</span>
 				</div>
 				
 				<div class="col-xl-3 col-lg-3 col-md-4 text-center pt-20">
 					<div class="menu-img"><img src="images/guiness-stout.png" alt="menu" class="menu-image"></div>
 					<p class="menu-title text-uppercase" style="color:black;font-weight:700;">GUINNESS STOUT <small> - IRELAND</small></p>
-					<p class="menu-des">20oz. - 4.2%</p>
+					<p class="menu-des">16oz. - 4.2%</p>
 					<span class="menu-price">$8 3/4</span>
 				</div>
 				<div class="col-xl-3 col-lg-3 col-md-4 text-center pt-20">
@@ -472,7 +521,7 @@
 					<div class="menu-img"><img src="images/premium.png" alt="menu" class="menu-image"></div>
 					<p class="menu-title text-uppercase" style="color:black;font-weight:700;">PREMIUM</p>
 					<p class="menu-des">Alexander keith's, corona, heineken, Miller Genuine Draft, stella, Sol.</p>
-					<span class="menu-price">$7 1/3</span>
+					<span class="menu-price">$7 1/2</span>
 				</div>
 				<div class="col-xl-3 col-lg-3 col-md-4 text-center pt-20">
 					<div class="menu-img"><img src="images/non-alcholic-beer.jpg" alt="menu" class="menu-image"></div>
@@ -501,6 +550,12 @@
 					<p class="menu-des">6oz. $11 1/2 | 9oz. $16  | BTL $48</p>
 				</div>
 				<div class="col-xl-3 col-lg-3 col-md-4 text-center pt-20">
+					<div class="menu-img"><img src="images/loxton.webp" alt="menu" class="menu-image"></div>
+					<p class="menu-title text-uppercase" style="color:black;font-weight:700;">LOXTON 0%</p>
+					<p class="menu-des">Califonia-Cabernet Sauvignon</p>
+					<p class="menu-des">6oz. $6 | 9oz. $9  | BTL $21</p>
+				</div>
+				<div class="col-xl-3 col-lg-3 col-md-4 text-center pt-20">
 					<div class="menu-img"><img src="images/xo1.webp" alt="menu" class="menu-image"></div>
 					<p class="menu-title text-uppercase" style="color:black;font-weight:700;">XOXO</p>
 					<p class="menu-des">Canada-Pinot Noir</p>
@@ -518,19 +573,25 @@
 					<div class="menu-img"><img src="images/30-mile.jpg" alt="menu" class="menu-image"></div>
 					<p class="menu-title text-uppercase" style="color:black;font-weight:700;">30 MILE</p>
 					<p class="menu-des">South Astralia . Chardornay</p>
-					<p class="menu-des">6oz. $9 1/2 | 9oz. $13 1/2 |BTL $35</p>
+					<p class="menu-des">6oz. $9 1/4 | 9oz. $13 1/4 |BTL $35</p>
+				</div>
+				<div class="col-xl-3 col-lg-3 col-md-4 text-center pt-20">
+					<div class="menu-img"><img src="images/yellow_tail.webp" alt="menu" class="menu-image"></div>
+					<p class="menu-title text-uppercase" style="color:black;font-weight:700;">YELLOW TAIL</p>
+					<p class="menu-des">Astralia . Chardornay</p>
+					<p class="menu-des">6oz. $6 1/2 | 9oz. $9 |BTL $28</p>
 				</div>
 				<div class="col-xl-3 col-lg-3 col-md-4 text-center pt-20">
 					<div class="menu-img"><img src="images/bare2.jpg" alt="menu" class="menu-image"></div>
 					<p class="menu-title text-uppercase" style="color:black;font-weight:700;">BAREFOOT</p>
 					<p class="menu-des">California-Pinot Grigo</p>
-					<p class="menu-des">6oz. $6 1/4 | 9oz. $9 |BTL $28</p>
+					<p class="menu-des">6oz. $6 1/2 | 9oz. $9 |BTL $28</p>
 				</div>
 				<div class="col-xl-3 col-lg-3 col-md-4 text-center pt-20">
 					<div class="menu-img"><img src="images/kim-crawford.jpg" alt="menu" class="menu-image"></div>
 					<p class="menu-title text-uppercase" style="color:black;font-weight:700;">KIM CRAWFORD</p>
 					<p class="menu-des">new zealand - sauvignon blanc</p>
-					<p class="menu-des">6oz. $10 1/4 | 9oz. $15 | BTL $41.</p>
+					<p class="menu-des">6oz. $10 1/2 | 9oz. $15 | BTL $41.</p>
 				</div>
 				<!-- <div class="col-xl-3 col-lg-3 col-md-4 text-center pt-20">
 					<div class="menu-img"><img src="images/star4.jpg" alt="menu" class="menu-image"></div>
@@ -568,7 +629,7 @@
 				<div class="col-xl-3 col-lg-3 col-md-4 text-center pt-20">
 					<div class="menu-img"><img src="images/okanagan-peach.jpg" alt="menu" class="menu-image"></div>
 					<p class="menu-title text-uppercase" style="color:black;font-weight:700;">OKANAGAN PEACH</p>
-					<span class="menu-price">$6 3/4</span>
+					<span class="menu-price">$6 1/4</span>
 				</div>
 				<div class="col-xl-3 col-lg-3 col-md-4 text-center pt-20">
 					<div class="menu-img"><img src="images/mike-lemonade.png" alt="menu" class="menu-image"></div>
@@ -583,7 +644,7 @@
 				 <div class="col-xl-3 col-lg-3 col-md-4 text-center pt-20">
 					<div class="menu-img"><img src="images/nude-122.jpg" alt="menu" class="menu-image"></div>
 					<p class="menu-title text-uppercase" style="color:black;font-weight:700;">NUDE STRAWBERRY KIWI</p>
-					<span class="menu-price">$6 3/4</span>
+					<span class="menu-price">$6 1/4</span>
 				</div> 
 				<div class="col-xl-3 col-lg-3 col-md-4 text-center pt-20">
 					<div class="menu-img"><img src="images/nude-raspberry-lemon.jpg" alt="menu" class="menu-image"></div>
@@ -593,7 +654,7 @@
 				<div class="col-xl-3 col-lg-3 col-md-4 text-center pt-20">
 					<div class="menu-img"><img src="images/smirnoff-ice.jpg" alt="menu" class="menu-image"></div>
 					<p class="menu-title text-uppercase" style="color:black;font-weight:700;">SMIRNOFF ICE</p>
-					<span class="menu-price">$6 3/4</span>
+					<span class="menu-price">$6 1/4</span>
 				</div>
 				 <div class="col-xl-3 col-lg-3 col-md-4 text-center pt-20">
 					<div class="menu-img"><img src="images/nude-raspberry-lemon.jpg" alt="menu" class="menu-image"></div>
@@ -608,7 +669,7 @@
 				<div class="col-xl-3 col-lg-3 col-md-4 text-center pt-20">
 					<div class="menu-img"><img src="images/nud-9.jpg" alt="menu" class="menu-image"></div>
 					<p class="menu-title text-uppercase" style="color:black;font-weight:700;">NUDE LEMONADE</p>
-					<span class="menu-price">$6 3/4</span>
+					<span class="menu-price">$6 1/4</span>
 				</div>
 				<div class="col-xl-3 col-lg-3 col-md-4 text-center pt-20">
 					<div class="menu-img"><img src="images/some-2.webp" alt="menu" class="menu-image"></div>
@@ -625,12 +686,18 @@
 				<div class="col-xl-3 col-lg-3 col-md-4 text-center pt-20">
 					<div class="menu-img"><img src="images/gree-1.webp" alt="menu" class="menu-image"></div>
 					<p class="menu-title text-uppercase" style="color:black;font-weight:700;">GRILLED CHEESE AND FRIES</p>
+					<span class="menu-price">$8</span>
+				</div>
+				<div class="col-xl-3 col-lg-3 col-md-4 text-center pt-20">
+					<div class="menu-img"><img src="images/cheese_burger.webp" alt="menu" class="menu-image"></div>
+					<p class="menu-title text-uppercase" style="color:black;font-weight:700;">CHEESE BURGER</p>
+					<p class="menu-des">with ketchup, pickle and fries</p>
 					<span class="menu-price">$10</span>
 				</div>
 				<div class="col-xl-3 col-lg-3 col-md-4 text-center pt-20">
 					<div class="menu-img"><img src="images/chicken_strips_and_fries_2.webp" alt="menu" class="menu-image"></div>
 					<p class="menu-title text-uppercase" style="color:black;font-weight:700;">CHICKEN STRIPS (X2) & FRIES</p>
-					<span class="menu-price">$12</span>
+					<span class="menu-price">$10</span>
 				</div>
 			</div>
 			<div role="tabpanel" class="row pt-70 tab-pane fade" id="tab-12">
@@ -640,7 +707,7 @@
 				<div class="col-xl-3 col-lg-3 col-md-4 text-center pt-20">
 					<div class="menu-img"><img src="images/grilled-chicken.jpg" alt="menu" class="menu-image"></div>
 					<p class="menu-title text-uppercase" style="color:black;font-weight:700;">GRILLED CHICKEN</p>
-					<span class="menu-price">$10 1/3</span>
+					<span class="menu-price">$10 1/2</span>
 				</div>
 				<div class="col-xl-3 col-lg-3 col-md-4 text-center pt-20">
 					<div class="menu-img"><img src="images/black-tiger-prawns.jpg" alt="menu" class="menu-image"></div>
@@ -652,11 +719,11 @@
 					<p class="menu-title text-uppercase" style="color:black;font-weight:700;">WILD BC SALMON (6OZ)</p>
 					<span class="menu-price">$11</span>
 				</div>
-				<div class="col-xl-3 col-lg-3 col-md-4 text-center pt-20">
+				<!-- <div class="col-xl-3 col-lg-3 col-md-4 text-center pt-20">
 					<div class="menu-img"><img src="images/Tuna-1.webp" alt="menu" class="menu-image"></div>
 					<p class="menu-title text-uppercase" style="color:black;font-weight:700;">TUNA</p>
 					<span class="menu-price">$8</span>
-				</div>
+				</div> -->
 				<!-- <div class="col-xl-3 col-lg-3 col-md-4 text-center pt-20">
 					<div class="menu-img"><img src="images/flafel.jpg" alt="menu" class="menu-image"></div>
 					<p class="menu-title text-uppercase" style="color:black;font-weight:700;">FLAFEL</p>
@@ -689,7 +756,7 @@
 			<div role="tabpanel" class="row pt-70 tab-pane fade" id="tab-15">
 				<div class="col-xl-3 col-lg-3 col-md-4 mt-15 text-center pt-20">
 					<div class="menu-img"><img src="images/coffe-and-hot-choclate-come-with-whipped-cream.jpg" alt="menu" class="menu-image"></div>
-					<p class="menu-title text-uppercase" style="color:black;font-weight:700;">SINGLLE 7 1/3  | DOUBLE 11 4/3</p>
+					<p class="menu-title text-uppercase" style="color:black;font-weight:700;">SINGLE 7 1/2  | DOUBLE 11 1/2</p>
 					<p class="menu-des">Coffee & hot chocolates come with whip cream & chocolates drizzle</p>
 				</div>
 				<div class="make-it-better-add-ons" style="width:100%; margin-top:5%;">
@@ -710,19 +777,19 @@
 					<p class="menu-title text-uppercase" style="color:black;font-weight:700;">IRISH COFFEE</p>
 					<p class="menu-des">Jameson |rish Whiskey</p>
 				</div>
-				<div class="make-it-better-add-ons" style="width:100%; margin-top :22px;">
+				<!-- <div class="make-it-better-add-ons" style="width:100%; margin-top :22px;">
 					<p style="color: white;display: block;text-align: center;width: 25%;background: #FC3222;font-size: 25px;margin-bottom: 30px !important;margin: auto;padding: 5px 0px;">PEPPERMINT HOT CHOCOLATE</p>
-				</div>
-				<div class="col-xl-3 col-lg-3 col-md-4 text-center pt-20">
+				</div> -->
+				<!-- <div class="col-xl-3 col-lg-3 col-md-4 text-center pt-20">
 					<div class="menu-img"><img src="images/blueberry-tea.jpg" alt="menu" class="menu-image"></div>
 					<p class="menu-title text-uppercase" style="color:black;font-weight:700;">BLUEBERRY TEA</p>
 					<p class="menu-des">Amareto, Grand Marnier,Orange Pekoe</p>
-				</div>
-				<div class="col-xl-3 col-lg-3 col-md-4 text-center pt-20">
+				</div> -->
+				<!-- <div class="col-xl-3 col-lg-3 col-md-4 text-center pt-20">
 					<div class="menu-img"><img src="images/hot-toddy.jpg" alt="menu" class="menu-image"></div>
 					<p class="menu-title text-uppercase" style="color:black;font-weight:700;">HOT TODDY</p>
 					<p class="menu-des">Rye Whiskey, Honey,Lemon</p>
-				</div>
+				</div> -->
 			</div>
 			<div role="tabpanel" class="row pt-70 tab-pane fade" id="tab-14">
 				
