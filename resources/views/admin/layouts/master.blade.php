@@ -40,7 +40,7 @@
                 <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
             </li>
             <li class="nav-item d-none d-sm-inline-block">
-                <a href="#" class="nav-link">Website</a>
+                <a href="https://shadytree.pub/" class="nav-link">Website</a>
             </li>
         </ul>
 
@@ -82,7 +82,7 @@
                     </li>
                     <li class="nav-item">
                             <li class="nav-item">
-                                <a href="{{ route('admin.category.list') }}" class="nav-link {{ request()->is('category*') ? 'active' : '' }}">
+                                <a href="{{ route('category.list') }}" class="nav-link {{ request()->is('category*') ? 'active' : '' }}">
                                     <!-- <i class="nav-icon fas fa-layer-group"></i> -->
                                     <i class="fi fi-rs-category"></i>
                                     <p>Category</p>
@@ -90,7 +90,7 @@
                             </li>
                     </li>
                     <li class="nav-item">
-                    <a href="{{ route('admin.product.list') }}" class="nav-link {{ request()->is('product*') ? 'active' : '' }}">
+                    <a href="{{ route('product.list') }}" class="nav-link {{ request()->is('product*') ? 'active' : '' }}">
                             <!-- <i class="nav-icon fas fa-yin-yang"></i> -->
                             <i class="fi fi-rr-box-open"></i>
                             
@@ -100,7 +100,7 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                    <a href="{{ route('admin.gallery') }}" class="nav-link {{ request()->is('gallery*') ? 'active' : '' }}">
+                    <a href="{{ route('gallery.admin.list') }}" class="nav-link {{ request()->is('gallery*') ? 'active' : '' }}">
                     <i class="fi fi-rr-layout-fluid"></i>
                             <p>
                                 Gallery
@@ -119,7 +119,7 @@
     </div>
 
     <footer class="main-footer">
-        <strong>Copyright &copy; {{ date('Y') == '2023' ? 2023 : 2023 - date('Y') }} <a href="https://bmgroupinc.com">BM_IT</a>.</strong>
+        <strong>Copyright &copy; {{ date('Y') == '2024' ? 2024 : 2024 - date('Y') }} <a href="https://bmgroupinc.com">BM_IT</a>.</strong>
         All rights reserved.
         <div class="float-right d-none d-sm-inline-block">
             <b>Version</b> 3.2.0

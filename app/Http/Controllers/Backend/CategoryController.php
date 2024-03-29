@@ -27,16 +27,19 @@ class CategoryController extends Controller
 
             $category = new Category();
             $category->name = $request->name;
-            $category->slug = preg_replace('/ /','-', strtolower($category->name));
             $category->status = $request->status;
-            if($request->hasFile('image'))
-            {
-                $image = $request->image;
-                $extension = $image->getClientOriginalExtension();
-                $filename = rand() . '.' . $extension;
-                $image->move('upload/category/', $filename);
-                $category->image = $filename;
-            }
+
+            // Add new fields
+            $category->time = $request->time;
+            $category->choice = $request->choice;
+            $category->addons = $request->addons;
+            // $category->time = $request->time ?: null; 
+            // $category->choice = $request->choice ?: null; 
+            // $category->addons = $request->addons ?: null; 
+            // $category->time = $request->time !== '' ? $request->time : null;
+            // $category->choice = $request->choice !== '' ? $request->choice : null;
+            // $category->addons = $request->addons !== '' ? $request->addons : null;
+
 
             $category->save();
 
@@ -85,20 +88,19 @@ class CategoryController extends Controller
             $category = Category::where('id', $request->id)->first();
 
             $category->name = $request->name;
-            $category->slug = preg_replace('/ /','-', strtolower($category->name));
             $category->status = $request->status;
-            if($request->hasFile('image'))
-            {
-                if ($category->image) {
-                    File::delete('upload/category/'.$category->image);
-                }
-                $image = $request->image;
-                $extension = $image->getClientOriginalExtension();
-                $filename = rand() . '.' . $extension;
-                $image->move('upload/category/', $filename);
-                $category->image = $filename;
-            }
 
+            // Update new fields
+            $category->time = $request->time;
+            $category->choice = $request->choice;
+            $category->addons = $request->addons;
+            // $category->time = $request->time ?: null; 
+            // $category->choice = $request->choice ?: null; 
+            // $category->addons = $request->addons ?: null; 
+            // $category->time = $request->time !== '' ? $request->time : null;
+            // $category->choice = $request->choice !== '' ? $request->choice : null;
+            // $category->addons = $request->addons !== '' ? $request->addons : null;
+            
             $category->save();
 
             return response()->json(['success' => true, 'message' => 'Category has been updated successfully'], 200);

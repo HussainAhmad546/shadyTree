@@ -27,14 +27,7 @@ class LoginController extends Controller
             ];
 
             if (Auth::attempt($credentials)) {
-                $user = Auth::user();
-
-                if ($user->user_type == 1) {
-                    return response()->json(['success' => true, 'message' => 'Login successful. Welcome Back!'], 200);
-                } elseif ($user->user_type == 2) {
-                    Auth::logout();
-                    return response()->json(['success' => false, 'message' => 'You do not have permission to access the admin site.'], 200);
-                }
+                return response()->json(['success' => true, 'message' => 'Login successful. Welcome Back!'], 200);
             } else {
                 return response()->json(['success' => false, 'message' => 'Incorrect username or password. Please try again.'], 200);
             }

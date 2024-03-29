@@ -11,6 +11,7 @@ class ImagesTable extends Migration
         Schema::create('images', function (Blueprint $table) {
             $table->id();
             $table->string('path');
+            $table->unsignedBigInteger('is_del')->comment('0 = Not Deleted, 1 = Deleted')->default(0);
             $table->timestamps();
         });
     }

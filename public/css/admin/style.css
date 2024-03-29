@@ -138,6 +138,26 @@
     width: 100%;
     height: 100%;
 }
+.image-container {
+    position: relative;
+}
+
+.delete-icon {
+    position: absolute;
+    top: 10px;
+    right: 80px;
+    display: none;
+    cursor: pointer;
+    z-index: 999;
+}
+
+.delete-icon i {
+    color: red; /* Set the color of the icon to red */
+}
+
+.image-container:hover .delete-icon {
+    display: block;
+}
 
 
 .gallery {

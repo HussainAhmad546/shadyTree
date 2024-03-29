@@ -77,7 +77,67 @@
 <script src="js/admin/toastr.min.js"></script>
 <script src="js/admin/emailValidation.js"></script>
 
+<script>
 
+    $('#login_form').on('submit', function () {
+
+        const email = $('#email').val();
+        const password = $('#password').val();
+        let form_error = false;
+
+        if (!email) {
+
+            toastr.error('Email is required to process.');
+            form_error = true;
+        }
+        else if (!isEmail(email)) {
+
+            toastr.error('Please enter a valid email address.');
+            form_error = true;
+        }
+
+        if (!password) {
+
+            toastr.error('Password is required to process.');
+            form_error = true;
+        }
+
+        if (form_error)
+            return false;
+
+        $('#login_btn').addClass('disabled');
+
+        $.ajax({
+            url: '{{ route('auth.login') }}',
+            type: 'POST',
+            data: {
+                email: email,
+                password: password,
+                _token: '{{ csrf_token() }}'
+            },
+            success: function (response) {
+
+                if (response.success) {
+
+                    toastr.success(response.message);
+                    setTimeout(function() {
+                        window.location.href = '/dashboard';
+                    }, 1000);
+                }
+                else {
+
+                    toastr.error(response.message);
+                    $('#login_btn').removeClass('disabled');
+                }
+            },
+            error: function () { // <-- Add a comma here
+                toastr.error('An error occurred during the request. Please try again.');
+                $('#login_btn').removeClass('disabled');
+            }
+        });
+    });
+
+</script>
 
 </body>
 </html>

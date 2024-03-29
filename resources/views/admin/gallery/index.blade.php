@@ -29,66 +29,22 @@
                 </div>
             </div>
 
-                <!-- Gallery -->
-<div class="row">
-  <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
-    <img
-      src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
-      class="w-100 shadow-1-strong rounded mb-4"
-      alt="Boat on Calm Water"
-    />
-
-    <img
-      src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain1.webp"
-      class="w-100 shadow-1-strong rounded mb-4"
-      alt="Wintry Mountain Landscape"
-    />
-  </div>
-
-  <div class="col-lg-4 mb-4 mb-lg-0">
-    <img
-      src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain2.webp"
-      class="w-100 shadow-1-strong rounded mb-4"
-      alt="Mountains in the Clouds"
-    />
-
-    <img
-      src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
-      class="w-100 shadow-1-strong rounded mb-4"
-      alt="Boat on Calm Water"
-    />
-  </div>
-
-  <div class="col-lg-4 mb-4 mb-lg-0">
-    <img
-      src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(18).webp"
-      class="w-100 shadow-1-strong rounded mb-4"
-      alt="Waves at Sea"
-    />
-
-    <img
-      src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain3.webp"
-      class="w-100 shadow-1-strong rounded mb-4"
-      alt="Yosemite National Park"
-    />
-  </div>
-</div>
-<!-- Gallery -->
-
-
-<!-- Gallery -->
-<div class="row">
+    <!-- Gallery -->
+    <div class="row">
         @foreach($images as $image)
-            <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
-                <img src="{{ asset('storage/'.$image->path) }}" class="w-100 shadow-1-strong rounded mb-4" alt="gallery-image">
+            <div class="col-lg-4 col-md-6 col-xs-12 image-container">
+                <img src="{{ asset('storage/'.$image->path) }}" class=" shadow-1-strong rounded mb-4" alt="gallery-image" height="200px" width="300px">
+                <div class="delete-icon" id='delete_btn_{{ $image->id }}' onclick="delete_image('{{ $image->id }}')">
+                    <i class="fas fa-trash"></i>
                 </div>
+            </div>
         @endforeach
     </div> 
     <!-- Gallery -->
          
         </section>
         
-        <!-- Modal HTML -->
+        <!-- Delete Image Confimation Modal -->
         <div id="myModal" class="modal fade">
             <div class="modal-dialog modal-confirm">
                 <div class="modal-content">
@@ -109,8 +65,8 @@
                 </div>
           </div>
         </div>
-
-
+    
+    <!-- Upload Gallery Image Modal -->
     <div class="modal fade" id="add-category-model">
         <div class="modal-dialog modal-lg">
             <div class="modal-content">
@@ -127,7 +83,6 @@
                         <div class="row">
                             <div class="col-lg-12" id="gallery_image_input">
                                 <div class="form-group">
-                                    
                                     <label for="gallery_image">Gallery Image</label>
                                     <input class="form-control" type="file" id="gallery_image" name="image" onchange="getImagePreview(this)">
                                     <img id="gallery_image_preview" src="#" style="display: none"/>
@@ -138,7 +93,7 @@
                 </div>
                 <div class="modal-footer justify-content-between">
                     <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary" id="add_category_btn">Save</button>
+                    <button type="submit" class="btn btn-primary" id="add_image_btn">Save</button>
                 </div>
             </div>
         </div>
@@ -162,30 +117,67 @@
     <script src="{{asset('js/admin/buttons.print.min.js')}}"></script>
     <script src="{{asset('js/admin/buttons.colVis.min.js')}}"></script>
 
-<script>
-    function add_image() {
-    var formData = new FormData();
-    formData.append('image', $('#gallery_image')[0].files[0]);
-    formData.append('_token', '{{ csrf_token() }}'); // Add CSRF token
 
-    $.ajax({
-        type: 'POST',
-        url: '{{ route("image.add") }}',
-        data: formData, // Directly pass FormData object
-        processData: false,
-        contentType: false,
-        success: function(response) {
-            // Success handling
-            console.log(response);
-            // Reload page or update UI as required
-        },
-        error: function(xhr, status, error) {
-            // Error handling
-            console.error(xhr.responseText);
+<script>
+$(document).ready(function() {
+    $('#add_image_btn').on('click', function(e) {
+        e.preventDefault();
+        if ($(this).data('submitting')) {
+            return;
+        }
+        $(this).data('submitting', true);
+        if ($('#gallery_image')[0].files.length > 0) {
+            add_image();
+        } else {
+            alert('Please select an image.');
+            $(this).data('submitting', false);
         }
     });
-}
 
+    function getImagePreview(image_object) {
+        readURL(image_object);
+    }
+
+    function readURL(input) {
+        if (input.files && input.files[0]) {
+            var reader = new FileReader();
+            reader.onload = function(e) {
+                $('#'+input.id+'_preview').attr('src', e.target.result).show();
+            };
+            reader.readAsDataURL(input.files[0]);
+        }
+    }
+
+    $('#add-category-model').on('hidden.bs.modal', function () {
+        $('#category_form')[0].reset();
+        $('#gallery_image_preview').attr('src', '#').hide();
+        $('#add_image_btn').data('submitting', false);
+    });
+
+    function add_image() {
+        var formData = new FormData();
+        formData.append('image', $('#gallery_image')[0].files[0]);
+        formData.append('_token', '{{ csrf_token() }}');
+
+        $.ajax({
+            type: 'POST',
+            url: '{{ route("gallery.image.add") }}',
+            data: formData,
+            processData: false,
+            contentType: false,
+            success: function(response) {
+                $('#add-category-model').modal('hide');
+                location.reload();
+            },
+            error: function(xhr, status, error) {
+                console.error(xhr.responseText);
+            },
+            complete: function() {
+                $('#add_image_btn').data('submitting', false);
+            }
+        });
+    }
+});
 </script>
 
 <script>
@@ -208,6 +200,59 @@ function readURL(input) {
 
     $('#'+input.id+'_preview').css('display', 'block').css('width', '100px').css('margin-top', '20px');
 }
+
+</script>
+
+<script>
+    $(document).ready(function() {
+    $('.delete-icon').on('click', function() {
+        $('#myModal').modal('show');
+    });
+});
+</script>
+<script>
+
+   
+    function delete_image(id) {
+    $('#myModal').modal('show');
+    $('#delete_btn_' + id).html('<i class="fas fa-spinner fa-spin"></i>');
+
+    $('#confirmDelete').on('click', function () {
+        $('#delete_btn_' + id).addClass('disabled');
+
+        $.ajax({
+            url: '{{ route('gallery.image.delete', ['id' => '__id__']) }}'.replace('__id__', id),
+            type: 'POST',
+            data: {
+                id: id,
+                _token: '{{ csrf_token() }}'
+            },
+            success: function (response) {
+                if (response.success) {
+                    toastr.success(response.message);
+                    setTimeout(function () {
+                        window.location.href = '{{ route('gallery.admin.list') }}';
+                    }, 1000);
+                } else {
+                    toastr.error(response.message);
+                }
+
+                $('#delete_btn_' + id).html('<i class="fas fa-trash"></i>').removeClass('disabled');
+                $('#myModal').modal('hide');
+            },
+            error: function () {
+                toastr.error('Failed to delete Image. Please try again.');
+                $('#delete_btn_' + id).html('<i class="fas fa-trash"></i>').removeClass('disabled');
+                $('#myModal').modal('hide');
+            }
+        });
+    });
+
+    $('#cancelDelete').on('click', function () {
+        $('#myModal').modal('hide');
+    });
+}
+
 
 </script>
 

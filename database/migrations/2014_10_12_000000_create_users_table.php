@@ -17,9 +17,21 @@ return new class extends Migration
             $table->string('email')->unique();
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
+            $table->unsignedBigInteger('status')->comment('0 = Active, 1 = Inactive')->default(0);
+            $table->unsignedBigInteger('is_del')->comment('0 = Not deleted, 1 = Deleted')->default(0);
             $table->rememberToken();
             $table->timestamps();
         });
+        DB::table('users')->insert([
+            [
+                'name' => 'SheddyTree',
+                // 'last_name' => 'Copia',
+                'email' => 'admin@sheddytree.com',
+                'password' => Hash::make('admin786321'),
+                'status' => 0,
+                'is_del' => 0
+            ]
+        ]);
     }
 
     /**
